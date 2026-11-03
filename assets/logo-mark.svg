@@ -1,15 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Wove Games">
-  <!-- Wove Games mark: a W ribbon with a single thread woven over-under through its legs -->
-  <rect width="64" height="64" rx="15" fill="#F26B4E"/>
-  <g fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-    <!-- legs 1 and 3: the thread passes over these -->
-    <path d="M9 14l11 33M32 16l12 31" stroke="#FFFFFF"/>
-    <!-- the thread, with a halo that cuts the weave gap into legs 1 and 3 -->
-    <path d="M8 31H56" stroke="#F26B4E" stroke-width="11"/>
-    <path d="M8 31H56" stroke="#F7C948"/>
-    <!-- legs 2 and 4 pass over the thread: halo only inside the thread band -->
-    <g clip-path="url(#band)"><path d="M20 47l12-31M44 47l11-33" stroke="#F26B4E" stroke-width="11"/></g>
-    <path d="M20 47l12-31M44 47l11-33" stroke="#FFFFFF"/>
+  <!-- App-icon mark: glossy ink square, two cartoon eyes (lime iris), small lime smile, lime sparkle. -->
+  <defs>
+    <linearGradient id="wm-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2E2947"/>
+      <stop offset="1" stop-color="#14121F"/>
+    </linearGradient>
+    <linearGradient id="wm-gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#wm-bg)"/>
+  <rect x="1" y="1" width="62" height="62" rx="14" fill="none" stroke="#fff" stroke-opacity=".14" stroke-width="2"/>
+  <path d="M15 2h34a13 13 0 0 1 13 13v9H2v-9A13 13 0 0 1 15 2z" fill="url(#wm-gloss)"/>
+  <g fill="#fff">
+    <circle cx="21" cy="31" r="11"/>
+    <circle cx="43" cy="31" r="11"/>
   </g>
-  <clipPath id="band"><rect x="0" y="25.5" width="64" height="11"/></clipPath>
+  <g fill="#A6F000">
+    <circle cx="24" cy="28.5" r="5.6"/>
+    <circle cx="46" cy="28.5" r="5.6"/>
+  </g>
+  <g fill="#14121F">
+    <circle cx="25" cy="29.3" r="3.3"/>
+    <circle cx="47" cy="29.3" r="3.3"/>
+  </g>
+  <g fill="#fff">
+    <circle cx="23" cy="26.8" r="1.4"/>
+    <circle cx="45" cy="26.8" r="1.4"/>
+  </g>
+  <path d="M26.5 47.5q5.5 5.5 11 0" fill="none" stroke="#A6F000" stroke-width="3.2" stroke-linecap="round"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M51 14l3-4.5" stroke="#A6F000" stroke-width="3.2"/>
+    <path d="M56 8.5l.8-2.8M57.5 12.5l2.8-1.7" stroke="#fff" stroke-width="1.6"/>
+  </g>
 </svg>

@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="15" fill="#F26B4E"/><g fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14l11 33M32 16l12 31" stroke="#FFFFFF"/><path d="M8 31H56" stroke="#F26B4E" stroke-width="11"/><path d="M8 31H56" stroke="#F7C948"/><g clip-path="url(#b)"><path d="M20 47l12-31M44 47l11-33" stroke="#F26B4E" stroke-width="11"/></g><path d="M20 47l12-31M44 47l11-33" stroke="#FFFFFF"/></g><clipPath id="b"><rect y="25.5" width="64" height="11"/></clipPath></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Favicon: the Wove Games mark simplified for 16-32 px — bigger eyes, no fine sparkle strokes. -->
+  <rect width="64" height="64" rx="15" fill="#1C1930"/>
+  <circle cx="20" cy="31" r="12.5" fill="#fff"/>
+  <circle cx="44" cy="31" r="12.5" fill="#fff"/>
+  <circle cx="23.5" cy="28.5" r="6.6" fill="#A6F000"/>
+  <circle cx="47.5" cy="28.5" r="6.6" fill="#A6F000"/>
+  <circle cx="24.8" cy="29.4" r="3.9" fill="#14121F"/>
+  <circle cx="48.8" cy="29.4" r="3.9" fill="#14121F"/>
+  <path d="M25 48q7 6 14 0" fill="none" stroke="#A6F000" stroke-width="4" stroke-linecap="round"/>
+  <path d="M52 13l3-5" stroke="#A6F000" stroke-width="4" stroke-linecap="round"/>
+</svg>
