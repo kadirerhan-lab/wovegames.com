@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 64" width="236" height="64" role="img" aria-label="Wove Games">
+  <!-- One-colour version. Everything is currentColor and the weave is knocked out, so it works on any background.
+       Set the colour with CSS `color` (inline) or change the value in the <g> below. -->
+  <g color="#22304A">
+    <mask id="knockout" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <rect width="64" height="64" fill="#fff"/>
+      <g fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 14l11 33M32 16l12 31" stroke="#000"/>
+        <path d="M8 31H56" stroke="#fff" stroke-width="11"/>
+        <path d="M8 31H56" stroke="#000"/>
+        <g clip-path="url(#band-mono)"><path d="M20 47l12-31M44 47l11-33" stroke="#fff" stroke-width="11"/></g>
+        <path d="M20 47l12-31M44 47l11-33" stroke="#000"/>
+      </g>
+    </mask>
+    <clipPath id="band-mono"><rect x="0" y="25.5" width="64" height="11"/></clipPath>
+    <rect width="64" height="64" rx="15" fill="currentColor" mask="url(#knockout)"/>
+    <g transform="translate(84 8)" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 0l7.5 30 7.5-30 7.5 30 7.5-30"/>
+      <circle cx="57" cy="15" r="15"/>
+      <path d="M85 0l11 30 11-30"/>
+      <path d="M112 15h30a15 15 0 1 0-5.4 11.5"/>
+    </g>
+    <g transform="translate(86 47)" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M9.4 2a5.5 5.5 0 1 0 1.6 3.5h-4.5"/>
+      <path d="M18 11l4.4-11 4.4 11M19.8 7.5h5.2"/>
+      <path d="M33 11V0l4.4 6.6L41.8 0v11"/>
+      <path d="M54 0h-6.5v11h6.5M47.5 5.5h4.8"/>
+      <path d="M67 2c-1.5-2.3-7.5-2.3-7.5 1.2S67 6 67 8.3 60.5 12 59 9.3"/>
+    </g>
+  </g>
+</svg>

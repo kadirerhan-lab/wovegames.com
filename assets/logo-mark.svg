@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Wove Games">
+  <!-- Wove Games mark: a W ribbon with a single thread woven over-under through its legs -->
+  <rect width="64" height="64" rx="15" fill="#F26B4E"/>
+  <g fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- legs 1 and 3: the thread passes over these -->
+    <path d="M9 14l11 33M32 16l12 31" stroke="#FFFFFF"/>
+    <!-- the thread, with a halo that cuts the weave gap into legs 1 and 3 -->
+    <path d="M8 31H56" stroke="#F26B4E" stroke-width="11"/>
+    <path d="M8 31H56" stroke="#F7C948"/>
+    <!-- legs 2 and 4 pass over the thread: halo only inside the thread band -->
+    <g clip-path="url(#band)"><path d="M20 47l12-31M44 47l11-33" stroke="#F26B4E" stroke-width="11"/></g>
+    <path d="M20 47l12-31M44 47l11-33" stroke="#FFFFFF"/>
+  </g>
+  <clipPath id="band"><rect x="0" y="25.5" width="64" height="11"/></clipPath>
+</svg>

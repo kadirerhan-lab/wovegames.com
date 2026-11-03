@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="ws-title">
+  <title id="ws-title">A spool of thread on a workbench with a few sparkles — games still in the making</title>
+  <defs>
+    <linearGradient id="wsbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E3F3F5"/><stop offset="1" stop-color="#CFE9EC"/></linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#wsbg)"/>
+  <!-- bench -->
+  <rect y="340" width="800" height="110" fill="#C7794A"/><rect y="340" width="800" height="16" fill="#E09A66"/>
+  <!-- loose thread weaving across the bench -->
+  <path d="M-10 300c80 0 90-60 170-60s90 60 170 60 90-60 170-60 90 60 170 60 80-30 140-30" fill="none" stroke="#F26B4E" stroke-width="12" stroke-linecap="round"/>
+  <!-- spool -->
+  <g transform="translate(330 150)">
+    <rect x="0" y="0" width="140" height="190" rx="14" fill="#F7C948"/>
+    <rect x="-16" y="-16" width="172" height="36" rx="18" fill="#B8865A"/>
+    <rect x="-16" y="170" width="172" height="36" rx="18" fill="#B8865A"/>
+    <g stroke="#E0A800" stroke-width="6" opacity=".8"><path d="M8 40h124M8 70h124M8 100h124M8 130h124M8 160h124"/></g>
+  </g>
+  <!-- needle -->
+  <path d="M560 120l120 160" stroke="#8FA3B8" stroke-width="10" stroke-linecap="round"/><circle cx="560" cy="120" r="14" fill="none" stroke="#8FA3B8" stroke-width="8"/>
+  <!-- sparkles -->
+  <g fill="#1F7A8C"><path d="M130 110l8 18 18 8-18 8-8 18-8-18-18-8 18-8z"/><path d="M700 60l5 12 12 5-12 5-5 12-5-12-12-5 12-5z"/><path d="M220 60l4 9 9 4-9 4-4 9-4-9-9-4 9-4z"/></g>
+</svg>
